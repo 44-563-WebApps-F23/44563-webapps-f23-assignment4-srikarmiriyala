@@ -30,3 +30,35 @@
 .Stockmann {
     color: red; 
 }
+
+/* Style for the character table */
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.character-table th, .character-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.character-table th {
+    background-color: #f2f2f2;
+}
+
+.character-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.character-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Add shadow and border on name hover */
+.name:hover {
+    box-shadow: 5px 5px 10px #888888;
+    border: 1px solid #ccc;
+}
