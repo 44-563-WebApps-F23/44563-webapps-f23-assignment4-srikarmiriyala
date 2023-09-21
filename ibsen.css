@@ -66,3 +66,24 @@
     box-shadow: 5px 5px 10px #888888;
     border: 1px solid #ccc;
 }
+
+ul.horizontal-navbar{
+    width:100 px;
+    background-color:beige;
+}
+    
+ul.horizontal-navbar li {
+        display: inline;
+        margin-right: 30px;
+}
+    
+ul.horizontal-navbar a {
+        display: inline;
+        text-decoration: none; 
+        color:black;
+        font-weight: bold;
+}
+    
+ul.horizontal-navbar a:hover {
+        color: #FF5733;
+}
