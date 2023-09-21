@@ -1,0 +1,32 @@
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    color: black;
+}
+
+/* For non-spoken directions */
+.direction {
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightyellow;
+}
+
+/* Hover effect on directions */
+.direction:hover {
+    background-color: lightblue;
+    color: white; 
+}
+
+/* Character-specific styles */
+.Billing {
+    color: blue;
+}
+
+.Hovstad {
+    color: green;
+}
+
+.Stockmann {
+    color: red; 
+}
